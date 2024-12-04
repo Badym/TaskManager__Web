@@ -1,0 +1,11 @@
+pl\pols\lab\services\PeopleDeleteServlet.class
+pl\pols\lab\services\PeopleInsertServlet.class
+pl\polsl\lab\model\User.class
+pl\pols\lab\services\PeopleUpdateServlet.class
+pl\polsl\lab\model\ValidationException.class
+pl\polsl\lab\model\TaskStatus.class
+pl\polsl\lab\model\SingletonModel.class
+pl\polsl\lab\model\package-info.class
+pl\polsl\lab\model\Client.class
+pl\pols\lab\services\PeopleServlet.class
+pl\polsl\lab\model\Task.class

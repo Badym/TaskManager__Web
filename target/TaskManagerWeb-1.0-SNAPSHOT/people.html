@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <script src="js/people.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body onload="getAllPeopleTable('tablePeopleId')">
+        <h1>People</h1>
+        <div id="errorInfo" class="errorInfo">&nbsp;</div>
+        <hr/>
+        <input type="text" id="studentName" name="studentName" placeholder="Student Name"/>
+        <input type="text" id="parentName" name="parentName" placeholder="Parent Name"/>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number"/>
+        <input type="text" id="description" name="description" placeholder="Description"/>
+        <input type="button" id="Insert" value="Dodaj" onClick="insertPerson('studentName', 'parentName', 'phoneNumber', 'description', 'tablePeopleId','errorInfo');" />
+        
+        <hr/>
+        <table>
+            <thead>                
+                <tr>
+                    <th>Imię</th>
+                    <th>Imię Rodzica</th>
+                    <th>Numer Telefonu</th>
+                    <th>Opis</th>
+                    <th></th>
+                </tr>
+            </thead>            
+            <tbody id="tablePeopleId">
+            </tbody>            
+        </table>
+         
+<!--        <input type="text" id="firstName" name="firstName" />         
+        <input type="button" id="test" value="Show" onClick="getPeopleTable('firstName', 'tablePeopleId');" />-->
+        
+    </body>
+</html>
